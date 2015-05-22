@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ## Init m as NULL
   m <- NULL
   
-  ##Set/Create the value of the matrix in the working environment
+  ##Set or Create the value of the matrix in the working environment
   set <- function(y) {
     x <<- y
     m <<- NULL
